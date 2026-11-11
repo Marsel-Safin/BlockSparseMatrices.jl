@@ -22,8 +22,9 @@ include("coloring.jl")
 include("blockmatrix.jl")
 include("symmetricblockmatrix.jl")
 include("vbcrs.jl")
-
+include("symmetricvbcrs.jl")
 export BlockSparseMatrix, SymmetricBlockMatrix, VariableBlockCompressedRowStorage
+export SymmetricVariableBlockCompressedRowStorage
 export rowindices, colindices
 export eachblockindex, block
 

@@ -4,6 +4,7 @@ using Test, TestItems, TestItemRunner
     include("test_blockmatrix.jl")
     include("test_symmetricblockmatrix.jl")
     include("test_vbcrs.jl")
+    include("test_symmetricvbcrs.jl")
 end
 
 @testitem "Code quality (Aqua.jl)" begin
